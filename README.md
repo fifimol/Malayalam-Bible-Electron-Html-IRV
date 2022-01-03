@@ -1,4 +1,4 @@
-# Malayalam-bible-IRV
+# Malayalam-bible-IRV Electron and web app for PC and Mac 
 
 Type npm install
 
