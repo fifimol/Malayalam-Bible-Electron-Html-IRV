@@ -126,7 +126,7 @@ header .name,
   width: 100%;
   font-size: 12pt;
   text-align: center;
-  color: rgb(1, 2, 43);
+  color: rgb(0, 0, 17);
 }
 
 header .location,
@@ -137,7 +137,7 @@ header .location,
   width: 100%;
   font-size: 14px;
   text-align: center;
-  color: rgb(0, 10, 22);
+  color: rgb(0, 12, 27);
 }
 
 /*
@@ -169,11 +169,8 @@ display: none;
   padding-right: 10px;
 }
 
-.texts-index-list tr td {
-}
-
 .texts-index-list tr:hover {
-  background-color: #ccc;
+  background-color: rgb(151, 179, 190);
 }
 
 .texts-index-list .texts-index-header th {
@@ -206,11 +203,11 @@ display: none;
 }
 
 .division-list li:hover {
-  background-color: rgb(131, 209, 240);
+  background-color: rgb(151, 179, 190);
 }
 
 .division-list li.division-list-header {
-  background-color: #004053;
+  background-color: #758ca7;
   color: #fff;
   text-align: center;
   padding: 5px;
@@ -227,11 +224,11 @@ display: none;
 }
 
 .section-list li:hover {
-  background-color: #ccc;
+  background-color: rgb(151, 179, 190);
 }
 
 .section-list li.book-list-header {
-  background-color: #2a85e8;
+  background-color:rgb(151, 179, 190);
   color: #fff;
   text-align: center;
   padding: 5px;

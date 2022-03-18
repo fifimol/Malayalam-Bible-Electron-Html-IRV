@@ -1,7 +1,7 @@
 {
-  "name": "Malayalam-Bible-IRV",
-  "version": "1.0.0",
-  "description": "Malayalam Bible",
+  "name": "Bible-Malayalam",
+  "version": "1.0.2",
+  "description": "Bible Malayalam 1.0.3",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",

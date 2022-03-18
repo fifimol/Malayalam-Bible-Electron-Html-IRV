@@ -76,10 +76,10 @@ const template = [
    },
    
    {
-      label: 'Version',
+      label: 'Help',
       submenu: [
-         {
-            label: 'Ver 1.0.0 @fifi.sol'
+                 {
+            label: 'Bible Malayalam 1.0.3'
          }
       ]
    }
@@ -90,16 +90,19 @@ Menu.setApplicationMenu(menu)
 app.on('ready', createWindow)
 
 contextMenu({
-	prepend: (params, browserWindow) => [
+    menu: (actions, props, browserWindow) => [
 
-      {
-         role: 'zoomin'
-      },
-      {
-         role: 'zoomout'
-      },
-      {
-         role: 'resetzoom'
-      }
+        { role: 'copy' },
+        { role: 'selectAll' },
+        { type: 'separator' },
+        { role: 'zoomin' },
+        { role: 'zoomout' },
+        { role: 'resetzoom' },
+        { type: 'separator' },
+        { role: 'togglefullscreen' },
+        { role: 'close' }
+
     ]
 });
+
+
